@@ -1,0 +1,174 @@
+/* ===========================
+   RESPONSIVE DESIGN
+=========================== */
+
+/* Tablets */
+
+@media screen and (max-width: 992px){
+
+    .navbar{
+        flex-direction:column;
+        padding:20px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        margin-top:15px;
+        gap:15px;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        padding:40px 20px;
+    }
+
+    .hero-content h1{
+        font-size:36px;
+    }
+
+    .hero-content p{
+        font-size:18px;
+    }
+
+    .hero img{
+        width:90%;
+        margin-top:20px;
+    }
+
+    .dashboard{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .controls{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .controls input,
+    .controls select{
+        width:100%;
+        max-width:400px;
+    }
+
+}
+
+/* Mobile */
+
+@media screen and (max-width:768px){
+
+    .logo{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .logo span{
+        font-size:20px;
+    }
+
+    .nav-links{
+        flex-direction:column;
+        width:100%;
+        align-items:center;
+    }
+
+    .nav-links li{
+        width:100%;
+        text-align:center;
+    }
+
+    .nav-links a{
+        display:block;
+        width:100%;
+        padding:12px;
+    }
+
+    .hero{
+        padding:30px 15px;
+    }
+
+    .hero-content h1{
+        font-size:30px;
+    }
+
+    .hero-content p{
+        font-size:16px;
+    }
+
+    .hero img{
+        width:100%;
+    }
+
+    .dashboard{
+        grid-template-columns:1fr;
+        padding:20px;
+    }
+
+    .card{
+        padding:15px;
+    }
+
+    .card img{
+        width:140px;
+        height:140px;
+    }
+
+    .page-title h1{
+        font-size:30px;
+    }
+
+    .page-title p{
+        font-size:16px;
+    }
+
+    button{
+        width:100%;
+    }
+
+    footer{
+        padding:20px;
+    }
+
+}
+
+/* Small Mobile */
+
+@media screen and (max-width:480px){
+
+    .hero-content h1{
+        font-size:26px;
+    }
+
+    .hero-content p{
+        font-size:15px;
+    }
+
+    .controls input,
+    .controls select{
+        width:95%;
+    }
+
+    .card img{
+        width:120px;
+        height:120px;
+    }
+
+    .card h2{
+        font-size:20px;
+    }
+
+    .card p{
+        font-size:14px;
+    }
+
+    button{
+        font-size:15px;
+        padding:10px;
+    }
+
+    .page-title h1{
+        font-size:26px;
+    }
+
+}
