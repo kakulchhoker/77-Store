@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brands | 7/7 Store Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1041/1041916.png">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+
+            <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png"
+                 alt="7/7 Store Logo"
+                 width="45"
+                 height="45">
+
+            <span>7/7 Store</span>
+
+        </div>
+
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="brands.html" class="active">Brands</a></li>
+            <li><a href="carts.html">Cart</a></li>
+            <li><a href="users.html">Users</a></li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- Page Title -->
+
+    <section class="page-title">
+
+        <h1>7/7 Store Popular Brands</h1>
+
+        <p>Browse products from popular brands.</p>
+
+    </section>
+
+
+    <!-- Search & Sort -->
+
+    <section class="controls">
+
+        <input
+            type="text"
+            id="searchBrand"
+            placeholder="Search brands...">
+
+
+        <select id="sortBrands">
+
+            <option value="">Sort Brands</option>
+            <option value="az">A - Z</option>
+            <option value="za">Z - A</option>
+
+        </select>
+
+    </section>
+
+
+    <!-- Loading -->
+
+    <div id="loading">
+
+        <h2>Loading Brands...</h2>
+
+    </div>
+
+
+    <!-- Brands Container -->
+
+    <section
+        id="brandsContainer"
+        class="dashboard">
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>&copy; 2026 7/7 Store Dashboard</p>
+
+        <p>Made with ❤️ using HTML, CSS & JavaScript</p>
+
+    </footer>
+
+
+    <script src="js/brands.js"></script>
+
+</body>
+
+</html>
