@@ -1,0 +1,83 @@
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+    background:#0f172a;
+    color:#ffffff;
+    text-align:center;
+    padding:25px 20px;
+    margin-top:40px;
+    border-top:4px solid #2563eb;
+}
+
+footer h3{
+    font-size:24px;
+    margin-bottom:10px;
+}
+
+footer p{
+    font-size:16px;
+    color:#d1d5db;
+    margin:6px 0;
+    line-height:1.6;
+}
+
+.footer-links{
+    margin:15px 0;
+}
+
+.footer-links a{
+    color:#ffffff;
+    text-decoration:none;
+    margin:0 12px;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.footer-links a:hover{
+    color:#60a5fa;
+}
+
+.social-icons{
+    margin-top:15px;
+}
+
+.social-icons a{
+    color:#ffffff;
+    text-decoration:none;
+    font-size:22px;
+    margin:0 10px;
+    transition:0.3s;
+}
+
+.social-icons a:hover{
+    color:#60a5fa;
+}
+
+.footer-bottom{
+    margin-top:20px;
+    padding-top:15px;
+    border-top:1px solid rgba(255,255,255,0.2);
+    font-size:14px;
+    color:#9ca3af;
+}
+
+@media (max-width:768px){
+
+    footer{
+        padding:20px 15px;
+    }
+
+    .footer-links{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+    }
+
+    .social-icons a{
+        display:inline-block;
+        margin:8px;
+    }
+
+}
